@@ -6,7 +6,9 @@ import { Suspense } from "react";
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Header />
+      <Suspense fallback={<div className="border-b-2 border-border h-[73px]" />}>
+        <Header />
+      </Suspense>
 
       <section className="container mx-auto px-4 py-12">
         <div className="max-w-2xl mb-12">

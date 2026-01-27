@@ -1,166 +1,1029 @@
 [
     {
-        "id": "campus-connect",
-        "title": "Campus Connect",
-        "description": "A centralized hub for student projects and collaboration. Built with modern web technologies.",
+        "id": "campus-bites",
+        "title": "CampusBites",
+        "description": "A web app that simplifies canteen ordering and payments across all IIIT canteens. It offers online ordering, secure payments, unique order IDs for verification, and a built-in wallet—making the process faster, smoother, and hassle-free for both customers and vendors.",
         "tags": [
+            "Web App",
+            "Fintech",
+            "Canteen",
+            "Payments"
+        ],
+        "authors": [
+            {
+                "name": "Hack Puttr"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-hack-puttr/blob/main/README.md"
+        }
+    },
+    {
+        "id": "ibc",
+        "title": "IBC (Introduction to Cut and Bulk)",
+        "description": "Helps college students bulk, cut, or manage diet needs despite fixed mess menus. Using live menu data and metrics like BMR and BMI, it suggests personalized meals. Students log exact items and portions, track calories easily, and monitor progress over time—turning the campus mess into a usable nutrition tool.",
+        "tags": [
+            "Health",
+            "Nutrition",
+            "Analytics",
+            "Mess"
+        ],
+        "authors": [
+            {
+                "name": "buggy"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-buggy"
+        }
+    },
+    {
+        "id": "noq",
+        "title": "NoQ",
+        "description": "A web-based smart canteen ordering system that enables students to pre-order food from campus canteens and pick it up once it is ready, without waiting in physical queues. The system supports pre-payment only, ensuring faster order processing and eliminating cash handling.",
+        "tags": [
+            "Web App",
+            "Smart Canteen",
+            "Queue Management"
+        ],
+        "authors": [
+            {
+                "name": "Geospatially Retarded"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-geospatially-retarded"
+        }
+    },
+    {
+        "id": "campus-go",
+        "title": "CampusGo",
+        "description": "Revolutionizes campus life by eliminating mess food waste through a fully synchronized WhatsApp Bot and Web Dashboard. Built with Node.js, Supabase Realtime, and Lovable, our custom 'Find, Lock, Pay' engine prevents double-booking.",
+        "tags": [
+            "Node.js",
+            "Supabase",
+            "WhatsApp Bot",
+            "Food Waste"
+        ],
+        "authors": [
+            {
+                "name": "chatgpt"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-chatgpt"
+        }
+    },
+    {
+        "id": "dusk",
+        "title": "Dusk",
+        "description": "A campus marketplace and group-ordering utility. It features a secure P2P coupon exchange with QR verification to reduce meal wastage, alongside FlashCart, an AI-powered group ordering system that uses OCR to automate bill splitting.",
+        "tags": [
+            "Marketplace",
+            "AI",
+            "OCR",
+            "P2P"
+        ],
+        "authors": [
+            {
+                "name": "rm rf -"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-rm-rf"
+        }
+    },
+    {
+        "id": "sicosta",
+        "title": "Sicosta",
+        "description": "A system to incentivize students to waste less food in the mess. Despite the buffet system and posters, wastage is high. This project uses cutting-edge tech to shape caring, competitive, and creative students by tracking and incentivizing waste reduction.",
+        "tags": [
+            "Sustainability",
+            "Food Waste",
+            "Social Impact"
+        ],
+        "authors": [
+            {
+                "name": "Sicosta"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-bropal"
+        }
+    },
+    {
+        "id": "len-den",
+        "title": "Len Den",
+        "description": "A Flutter + Supabase peer-to-peer campus delivery app. Students request canteen orders; runners nearby discover them via BLE enabled ESP32 beacons (no GPS Tracking), receive notifications, accept deliveries, and complete handoff with OTP verification.",
+        "tags": [
+            "Flutter",
+            "Supabase",
+            "ESP32",
+            "BLE",
+            "Delivery"
+        ],
+        "authors": [
+            {
+                "name": "Singlearity"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-lazyeats"
+        }
+    },
+    {
+        "id": "smart-canteen-switch",
+        "title": "Smart Canteen Switch",
+        "description": "Combines a physical ON/OFF switch for real-time canteen status with app-based pre-ordering. Orders are accepted only when open, prepared in advance, and picked up instantly, reducing confusion, waiting, and crowding.",
+        "tags": [
+            "IoT",
+            "App",
+            "Canteen",
+            "Hardware"
+        ],
+        "authors": [
+            {
+                "name": "Santas And Their Elves"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-santas-and-their-elves"
+        }
+    },
+    {
+        "id": "eventflow",
+        "title": "EventFlow",
+        "description": "A powerful in-house event management toolkit. Helpful for clubs/societies planning to host competitive or non-competitive events, with features such as brackets, polling, and leaderboards.",
+        "tags": [
+            "Event Management",
+            "Toolkit",
+            "Clubs"
+        ],
+        "authors": [
+            {
+                "name": "U+2800"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-u-2800"
+        }
+    },
+    {
+        "id": "iiit-dynamic-almanac",
+        "title": "IIIT Dynamic Almanac",
+        "description": "A centralized event management system for IIIT-H. It automates the extraction of campus events from institutional emails and provides students with a personalized, conflict-aware calendar view.",
+        "tags": [
+            "Automation",
+            "Calendar",
+            "Email Parsing"
+        ],
+        "authors": [
+            {
+                "name": "floppy diks"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-floppy-diks/tree/main"
+        }
+    },
+    {
+        "id": "safecampus",
+        "title": "SafeCampus",
+        "description": "An anonymous grievance reporting system designed to provide a secure platform for students to report gender-related grievances. Features a student portal and admin dashboard, anonymous chat, and panic button. Built with Flask, HTML/Tailwind, and SQLite.",
+        "tags": [
+            "Flask",
+            "Python",
+            "Security",
+            "Anonymous Reporting"
+        ],
+        "authors": [
+            {
+                "name": "Knight HacKers"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-knight-hackers.git"
+        }
+    },
+    {
+        "id": "iiith-auth",
+        "title": "IIITH Auth",
+        "description": "A secure, lightweight authentication layer designed to bridge the gap between official CAS restrictions and student innovation. Enables developers to integrate IIIT-H identity verification into community apps and bots.",
+        "tags": [
+            "Authentication",
+            "Security",
+            "Infrastructure"
+        ],
+        "authors": [
+            {
+                "name": "#include <hack.h>"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-include-hack-h"
+        }
+    },
+    {
+        "id": "events-iiit",
+        "title": "Events IIIT",
+        "description": "A unified campus events platform that brings all announcements, activities, and schedules into one reliable place. Replaces scattered messages with a clean dashboard, live notifications, and an interactive calendar.",
+        "tags": [
+            "Events",
+            "Dashboard",
+            "Calendar"
+        ],
+        "authors": [
+            {
+                "name": "4sleepers"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-4sleepers"
+        }
+    },
+    {
+        "id": "gathiyas-cabpool",
+        "title": "Gathiyas CabPool",
+        "description": "Solves commuting challenges by providing a platform for route-based cab pooling where users can share only the overlapping portion of their journeys. Addresses high costs, safety concerns, and complex cost splitting.",
+        "tags": [
+            "Transport",
+            "Cab Sharing",
+            "Cost Splitting"
+        ],
+        "authors": [
+            {
+                "name": "Gathiyas"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-gathiyas"
+        }
+    },
+    {
+        "id": "the-hivemind",
+        "title": "The HiveMind",
+        "description": "An intelligent networking ecosystem for IIIT Hyderabad that replaces cold DMs with a 'Search First' model. Combines granular alumni filtering, academic roadmaps, and a shared Knowledge Vault.",
+        "tags": [
+            "Networking",
+            "Alumni",
+            "Mentorship"
+        ],
+        "authors": [
+            {
+                "name": "Disorder"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/hackiiit/hackiiit-26-disorder"
+        }
+    },
+    {
+        "id": "upforit",
+        "title": "UpForIt?",
+        "description": "A campus app that replaces messy WhatsApp groups with a simple swipe-based marketplace for small tasks and chores. Includes a Skill Exchange space and Anonymous Chat for secure communication.",
+        "tags": [
+            "Marketplace",
+            "Social",
+            "Tasks"
+        ],
+        "authors": [
+            {
+                "name": "Blue Screen Of Death 3.0"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/hackiiit/hackiiit-26-blue-screen-of-death-3-0"
+        }
+    },
+    {
+        "id": "smart-workspace",
+        "title": "Smart Workspace Occupancy System",
+        "description": "Improves fair access to shared study spaces by introducing time-bound seat usage, real-time availability, and gentle presence checks. Prevents seat hoarding and adapts during peak hours.",
+        "tags": [
+            "IoT",
+            "Workspace",
+            "Management"
+        ],
+        "authors": [
+            {
+                "name": "Epst...FC"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-epst-fc"
+        }
+    },
+    {
+        "id": "amoibro",
+        "title": "amoiBro",
+        "description": "A chatbot widget for college events and hackathons specially built to assist external participants with instant updates and general information on the event website itself.",
+        "tags": [
+            "Chatbot",
+            "Events",
+            "Widget"
+        ],
+        "authors": [
+            {
+                "name": "amoiBro"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-amoibro"
+        }
+    },
+    {
+        "id": "iiit-social",
+        "title": "IIIT Social",
+        "description": "Advanced matching to find teammates for course projects or research, or find a group of people who match your vibes. Includes a gig marketplace for volunteers, live map of friends, and anonymous messaging board.",
+        "tags": [
+            "Social",
+            "Matching",
+            "Marketplace",
+            "Maps"
+        ],
+        "authors": [
+            {
+                "name": "Sunset"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-sunset"
+        }
+    },
+    {
+        "id": "vibecheck",
+        "title": "VibeCheck",
+        "description": "A desktop environment that breaks coding assignments into stages and substages. Requires students to think and write code manually to ensure concept learning and prevent AI code generation.",
+        "tags": [
+            "Desktop App",
+            "Education",
+            "Anti-Cheat"
+        ],
+        "authors": [
+            {
+                "name": "anchor"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-anchor"
+        }
+    },
+    {
+        "id": "smartmess",
+        "title": "SmartMess",
+        "description": "An intelligent mess management system that reduces overcrowding through real-time crowd monitoring. Features a meal marketplace, data-driven analytics, and demand prediction to reduce food wastage.",
+        "tags": [
+            "Mess Management",
+            "Analytics",
+            "Crowd Monitoring"
+        ],
+        "authors": [
+            {
+                "name": "MEGALODON"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-megalodon.git"
+        }
+    },
+    {
+        "id": "researchhive",
+        "title": "ResearchHive",
+        "description": "Maps talent across the IIIT-H campus by analyzing student code on GitHub and academic papers. Uses semantic search to connect users with qualified experts, research advisors, and published work.",
+        "tags": [
+            "Research",
+            "Semantic Search",
+            "Collaboration"
+        ],
+        "authors": [
+            {
+                "name": "HiveMind"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/hackiiit/hackiiit-26-terminal-touchers"
+        }
+    },
+    {
+        "id": "flying-fish",
+        "title": "Flying Fish",
+        "description": "Ferdium-like application providing a unified standard for IPC and basic scraping from Moodle to simplify developing wrappers and IIITH applications. Includes applets like 'Mess Mate', 'EVERBot', 'LIHA' and MCP servers.",
+        "tags": [
+            "Desktop App",
+            "IPC",
+            "Moodle",
+            "DevTools"
+        ],
+        "authors": [
+            {
+                "name": "Flying Fish"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-flying-fish"
+        }
+    },
+    {
+        "id": "unigraph",
+        "title": "UniGraph",
+        "description": "Unifies university experience with an interactive graph connecting courses, topics, and resources. Includes 'Bureaucrat', an intelligent agent for instant answers on campus policy and auto-drafting official emails.",
+        "tags": [
+            "Knowledge Graph",
+            "AI Agent",
+            "Campus Policy"
+        ],
+        "authors": [
+            {
+                "name": "odomos"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-unigraph.git"
+        }
+    },
+    {
+        "id": "campus-tasks",
+        "title": "Campus Tasks",
+        "description": "A campus-only web platform for browsing services, marketplace listings, deliveries, mess exchanges, and Lost & Found. Requires verified IIIT email authentication.",
+        "tags": [
+            "Web Platform",
+            "Marketplace",
+            "Services"
+        ],
+        "authors": [
+            {
+                "name": "Konsolers"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-konsolers/settings"
+        }
+    },
+    {
+        "id": "buymeatreat",
+        "title": "BuyMeATreat",
+        "description": "A community-driven digital platform for treats and karma points. Helps club coordinators find last-minute volunteers.",
+        "tags": [
+            "Community",
+            "Gamification",
+            "Volunteering"
+        ],
+        "authors": [
+            {
+                "name": "Satyarth Gupta"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-algomomo"
+        }
+    },
+    {
+        "id": "collective-commerce",
+        "title": "Collective Commerce",
+        "description": "A campus-only collective commerce platform for buy–sell–rent, group buying, subscription pooling, and shared orders. Focuses on economic coordination infrastructure to provide clear, quantified savings.",
+        "tags": [
+            "Commerce",
+            "Pooling",
+            "Economics"
+        ],
+        "authors": [
+            {
+                "name": "SoftwareBuilders"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-softwarebuilders"
+        }
+    },
+    {
+        "id": "freshers-games",
+        "title": "Freshers Games",
+        "description": "A peer-to-peer communication based solution to freshers interaction anxiety using engaging games.",
+        "tags": [
+            "Games",
+            "Social",
+            "Mental Health"
+        ],
+        "authors": [
+            {
+                "name": "2Broke2Build2"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-2broke2build2"
+        }
+    },
+    {
+        "id": "bookmycourt",
+        "title": "BookMyCourt",
+        "description": "A centralized sports court booking platform for IIIT-H. Students can check live availability, book slots, and avoid conflicts. Admins can override bookings for official events.",
+        "tags": [
+            "Sports",
+            "Booking",
+            "Management"
+        ],
+        "authors": [
+            {
+                "name": "VC Dosa"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/hackiiit/hackiiit-26-vc-dosa"
+        }
+    },
+    {
+        "id": "better-intranet",
+        "title": "Better Intranet",
+        "description": "A redesign of the current intranet to add features such as document update notifications, proper versioning, full text search, and LLM querying. Aims to replace the outdated list of PDF links.",
+        "tags": [
+            "Intranet",
+            "LLM",
+            "Search",
+            "Web"
+        ],
+        "authors": [
+            {
+                "name": "Mysore Park"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-mysore-pak"
+        }
+    },
+    {
+        "id": "moodle-ai",
+        "title": "Moodle AI",
+        "description": "Making professors' lives easier by leveraging AI inside Moodle.",
+        "tags": [
+            "AI",
+            "Moodle",
+            "Education"
+        ],
+        "authors": [
+            {
+                "name": "Uttar Pradesh baddies club"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-uttarpradeshbaddiesclub"
+        }
+    },
+    {
+        "id": "viva-scheduler",
+        "title": "Viva Scheduler",
+        "description": "A viva/evaluation scheduling app that handles slot swapping requests as well as calculating the overall delay of evals, and course management.",
+        "tags": [
+            "Scheduling",
+            "Management",
+            "Academic"
+        ],
+        "authors": [
+            {
+                "name": "Gomputer pomputer tomputer"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-gomputer-pomputer-tomputer"
+        }
+    },
+    {
+        "id": "iiit-unified",
+        "title": "IIIT Unified",
+        "description": "Bridges fragmented campus WhatsApp groups into one organized platform. Automatically processes WhatsApp messages using Groq AI to classify and display listings. Built with Next.js, Node.js, PostgreSQL.",
+        "tags": [
+            "Groq AI",
+            "WhatsApp",
             "Next.js",
-            "TypeScript",
-            "Tailwind",
             "PostgreSQL"
         ],
         "authors": [
             {
-                "name": "nuxsh",
-                "site": "https://github.com/nuxsh"
+                "name": "CodeWIZ"
             }
         ],
         "links": {
-            "repo": "https://github.com/nuxsh/campus-connect",
-            "demo": "https://campus-connect.demo"
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-codewiz"
         }
     },
     {
-        "id": "rust-os",
-        "title": "Rusty OS",
-        "description": "A toy operating system written in Rust for the OS course. Implements basic kernel features.",
+        "id": "nogradedrop",
+        "title": "NoGradeDrop",
+        "description": "A community-driven, AI-powered attendance notification ecosystem designed to save your grades. Combines computer vision, crowdsourcing, and aggressive alarm systems to notify students when the biometric machine enters the class.",
         "tags": [
-            "Rust",
-            "Systems",
-            "Low-level",
-            "Kernel"
+            "AI",
+            "Computer Vision",
+            "Attendance",
+            "Notifications"
         ],
         "authors": [
             {
-                "name": "Alice",
-                "site": "https://github.com/alice"
+                "name": "Team ACE"
             }
         ],
         "links": {
-            "repo": "https://github.com/alice/rusty-os"
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-team-ace"
         }
     },
     {
-        "id": "ml-toolkit",
-        "title": "ML Toolkit",
-        "description": "Collection of machine learning utilities and pre-trained models for common tasks.",
+        "id": "notes-platform",
+        "title": "Notes Platform",
+        "description": "A modern, T3-Stack application for sharing and collaborating on academic notes. Features a glassmorphic UI, high-performance PDF rendering, annotations, and social features like study groups.",
         "tags": [
-            "Python",
-            "PyTorch",
-            "ML",
-            "AI"
+            "T3 Stack",
+            "Next.js",
+            "Notes",
+            "Collaboration"
         ],
         "authors": [
             {
-                "name": "Bob",
-                "site": "https://github.com/bob"
+                "name": "Hack0d3"
             }
         ],
         "links": {
-            "repo": "https://github.com/bob/ml-toolkit"
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-hack0d3"
         }
     },
     {
-        "id": "devtools-cli",
-        "title": "DevTools CLI",
-        "description": "Command-line interface for common development tasks. Automates repetitive workflows.",
+        "id": "genai-feedback",
+        "title": "GenAI Feedback Ecosystem",
+        "description": "A real-time, multi-modal feedback ecosystem powered by GenAI and NLP. Lowers entry barriers using voice/text 'rants' which AI normalizes into constructive data. Allows professors to query feedback using natural language.",
         "tags": [
-            "Go",
-            "CLI",
-            "DevOps",
-            "Automation"
+            "GenAI",
+            "NLP",
+            "Feedback",
+            "Analytics"
         ],
         "authors": [
             {
-                "name": "Charlie",
-                "site": "https://github.com/charlie"
+                "name": "SaaS"
             }
         ],
         "links": {
-            "repo": "https://github.com/charlie/devtools-cli",
-            "demo": "https://devtools.demo"
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-saas.git"
         }
     },
     {
-        "id": "data-viz",
-        "title": "Data Visualization Library",
-        "description": "Lightweight charting library with focus on performance and customization.",
+        "id": "iiit-classlog",
+        "title": "IIIT-ClassLog",
+        "description": "Captures live classroom transcripts with speaker attribution, auto-summarizes each session, and stores them in a searchable course archive.",
         "tags": [
-            "JavaScript",
-            "D3.js",
-            "Visualization",
-            "Charts"
+            "Transcription",
+            "Archive",
+            "Academic"
         ],
         "authors": [
             {
-                "name": "Diana",
-                "site": "https://github.com/diana"
+                "name": "AlooDhaniyaPyaazBhindi"
             }
         ],
         "links": {
-            "repo": "https://github.com/diana/data-viz",
-            "demo": "https://data-viz.demo"
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-aloodhaniyapyaazbhindi"
         }
     },
     {
-        "id": "mobile-app",
-        "title": "Campus Events App",
-        "description": "Mobile application for discovering and managing campus events and activities.",
+        "id": "lecturegen",
+        "title": "LectureGen",
+        "description": "Transforms static lecture slides into engaging video lectures. Uses Gemini AI to generate scripts, Qwen2-Audio for voice cloning, and SadTalker for lip-synced talking head videos.",
         "tags": [
-            "React Native",
-            "Mobile",
+            "Gemini AI",
+            "Video Generation",
+            "Education"
+        ],
+        "authors": [
+            {
+                "name": "NamePending"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-namepending"
+        }
+    },
+    {
+        "id": "ta-load-optimizer",
+        "title": "TA Load Optimizer",
+        "description": "AI-powered dashboard to revolutionize university teaching workflows. Uses Google Gemini for fair workload distribution, doubt clustering, and grading consistency monitoring.",
+        "tags": [
+            "Google Gemini",
+            "Dashboard",
+            "Management"
+        ],
+        "authors": [
+            {
+                "name": "Zero Latency"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hachiiit-2026-zero-latency.git"
+        }
+    },
+    {
+        "id": "shift-happens",
+        "title": "Shift Happens",
+        "description": "Centralizes academic materials and auto-builds editable, conflict-free schedules, reducing stress and inefficient planning for students.",
+        "tags": [
+            "Scheduling",
+            "Planning",
+            "Productivity"
+        ],
+        "authors": [
+            {
+                "name": "Shift Happens"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-shift-happens.git"
+        }
+    },
+    {
+        "id": "hackpaglus",
+        "title": "Campus Facility Booking",
+        "description": "A booking service for music rooms, workspaces, sporting facilities, and cycles. Includes an admin dashboard for controlling bookings and informs students about nearby events.",
+        "tags": [
+            "Booking",
+            "Web App",
+            "Admin Dashboard"
+        ],
+        "authors": [
+            {
+                "name": "HackPaglus"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-hackpaglus"
+        }
+    },
+    {
+        "id": "aarogya-connect",
+        "title": "Aarogya Connect",
+        "description": "MERN-stack based web application for students, doctors, and nurses. Manages medicine inventory, doctor availability, and visit records. Features real-time chat and OTP verification.",
+        "tags": [
+            "MERN Stack",
+            "Healthcare",
+            "MongoDB"
+        ],
+        "authors": [
+            {
+                "name": "MERN-a-thon"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-mern-a-thon"
+        }
+    },
+    {
+        "id": "askgopi",
+        "title": "AskGopi",
+        "description": "Intranet net with Whisper, mess portal support, admin role to add more info in the RAG, source citation along with chatbot response.",
+        "tags": [
+            "RAG",
+            "Chatbot",
+            "Whisper"
+        ],
+        "authors": [
+            {
+                "name": "buriburizaemon"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-buriburizaemon"
+        }
+    },
+    {
+        "id": "flock",
+        "title": "Flock",
+        "description": "A transparent P2P caching engine for local networks. Intercepts large downloads using mitmproxy, serving files from neighboring peers to minimize bandwidth usage.",
+        "tags": [
+            "P2P",
+            "Caching",
+            "Networking",
+            "mitmproxy"
+        ],
+        "authors": [
+            {
+                "name": "Stable Delusion"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-stable-delusion"
+        }
+    },
+    {
+        "id": "nuxe-nalc",
+        "title": "Nuxe Nalc Policy Solver",
+        "description": "Converts institute policy into a formal system where users can query if actions are allowed. Uses an SMT solver to verify statements against policy rules and find loopholes.",
+        "tags": [
+            "SMT Solver",
+            "Formal Verification",
+            "Policy"
+        ],
+        "authors": [
+            {
+                "name": "Nuxe Nalc"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-nuxe-nalc"
+        }
+    },
+    {
+        "id": "gatekeeper",
+        "title": "Gatekeeper",
+        "description": "Web-based campus security system that digitizes entry/exit tracking. Features category-specific forms, real-time dashboard, and OCR-powered license plate detection.",
+        "tags": [
+            "Security",
+            "OCR",
+            "Flask",
+            "Python"
+        ],
+        "authors": [
+            {
+                "name": "SCS"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-scs"
+        }
+    },
+    {
+        "id": "unigate",
+        "title": "UniGate",
+        "description": "Digitizes campus security by replacing manual registers with a secure, zero-installation web platform using QR codes and real-time dashboards.",
+        "tags": [
+            "Security",
+            "QR Code",
+            "Web Platform"
+        ],
+        "authors": [
+            {
+                "name": "Adsm"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-adsm/tree/main"
+        }
+    },
+    {
+        "id": "smart-hostel-management",
+        "title": "Smart Hostel Management",
+        "description": "A smart hostel management system featuring lifestyle-based room allocation, cyclic room switching, and AI-driven complaint system.",
+        "tags": [
+            "Hostel Management",
+            "AI",
+            "Allocation"
+        ],
+        "authors": [
+            {
+                "name": "Nier_Classification"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/hackiiit/hackiiit-26-nier_classification.git"
+        }
+    },
+    {
+        "id": "campushealth-connect",
+        "title": "CampusHealth Connect",
+        "description": "Digital ecosystem streamlining campus healthcare by unifying reception, doctors, and pharmacies. Eliminates prescription forgery via IMS authentication and provides real-time resource tracking.",
+        "tags": [
+            "Healthcare",
+            "Digitization",
+            "Tracking"
+        ],
+        "authors": [
+            {
+                "name": "Back2Basics"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/hackiiit/hackiiit-26-back2basics"
+        }
+    },
+    {
+        "id": "spicy-nutella",
+        "title": "Smart Clinic Platform",
+        "description": "A single digital platform to make the college clinic more efficient. Supports role-based access for students, doctors, and staff, with features for SOS alerts, appointments, and digital prescriptions.",
+        "tags": [
+            "Healthcare",
+            "Digital Records",
+            "Web App"
+        ],
+        "authors": [
+            {
+                "name": "Spicy Nutella"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/hackiiit/hackiiit-26-spicy_nutella"
+        }
+    },
+    {
+        "id": "campus-logistics",
+        "title": "Campus Logistics Digitization",
+        "description": "Digitizes campus logistics by replacing paper-based gate entry systems with a real-time, app-based ecosystem for students, guards, and admins using Flutter and Firebase.",
+        "tags": [
+            "Flutter",
             "Firebase",
-            "Events"
+            "Logistics"
         ],
         "authors": [
             {
-                "name": "Eve",
-                "site": "https://github.com/eve"
+                "name": "rm -rf"
             }
         ],
         "links": {
-            "repo": "https://github.com/eve/campus-events"
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-ug3rmrf"
         }
     },
     {
-        "id": "api-gateway",
-        "title": "API Gateway",
-        "description": "High-performance API gateway with rate limiting, authentication, and monitoring.",
+        "id": "scholarsync",
+        "title": "ScholarSync",
+        "description": "Academic collaboration platform connecting researchers through shared projects and publications. Features user profiles, project collaboration, and an AI-powered chatbot. Built with FastAPI and React.",
         "tags": [
-            "Node.js",
-            "Express",
-            "API",
-            "Backend"
+            "Research",
+            "Collaboration",
+            "FastAPI",
+            "React"
         ],
         "authors": [
             {
-                "name": "Frank",
-                "site": "https://github.com/frank"
+                "name": "🥀"
             }
         ],
         "links": {
-            "repo": "https://github.com/frank/api-gateway"
+            "repo": "https://github.com/hackiiit/hackiiit-26-wiltedrose"
         }
     },
     {
-        "id": "design-system",
-        "title": "Design System",
-        "description": "Comprehensive design system with reusable components and design tokens.",
+        "id": "hadron",
+        "title": "Hadron",
+        "description": "An AI-powered social hub that turns dense papers into snackable slide-stories, conversational podcasts, and reels. Features FastAPI backend, React frontend, and TTS podcasts.",
         "tags": [
-            "React",
-            "Storybook",
-            "Design",
-            "Components"
+            "AI",
+            "Social Media",
+            "Content Generation",
+            "FastAPI"
         ],
         "authors": [
             {
-                "name": "Grace",
-                "site": "https://github.com/grace"
+                "name": "AnotherUselessGroup"
             }
         ],
         "links": {
-            "repo": "https://github.com/grace/design-system",
-            "demo": "https://design-system.demo"
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-anotheruselessgroup"
+        }
+    },
+    {
+        "id": "researchweb",
+        "title": "ResearchWeb",
+        "description": "Unified platform enhancing student–professor–research centre collaboration through a version-controlled website editor and ML-powered semantic research matching.",
+        "tags": [
+            "Research",
+            "ML",
+            "Collaboration"
+        ],
+        "authors": [
+            {
+                "name": "gommies"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-gommies.git"
+        }
+    },
+    {
+        "id": "iiith-research-radar",
+        "title": "IIITH Research Radar",
+        "description": "An organization-level agentic framework that resolves cross-lab queries by leveraging IIITH publications and patents. Generates grounded suggestions and identifies research gaps.",
+        "tags": [
+            "Research",
+            "AI Agents",
+            "Data Analysis"
+        ],
+        "authors": [
+            {
+                "name": "Gh33_Kh4t4m"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/hackiiit/hackiiit-26-gh33_kh4t4m"
+        }
+    },
+    {
+        "id": "campus-hack",
+        "title": "Campus Community Portal",
+        "description": "A community portal for IIIT with features including mess buy/sell/rent, lost and found, cab sharing, project hub, and general marketplace.",
+        "tags": [
+            "Community",
+            "Marketplace",
+            "Utilities"
+        ],
+        "authors": [
+            {
+                "name": "Campus_Hack"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/OSDG-IIITH/hackiiit-2026-Campus_Hack"
         }
     }
 ]

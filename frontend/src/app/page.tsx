@@ -1,11 +1,9 @@
-import { getProjects } from "@/lib/data/loader";
-import { ProjectCard } from "@/components/project-card";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { ProjectsGrid } from "@/components/projects-grid";
+import { Suspense } from "react";
 
 export default function Home() {
-  const projects = getProjects();
-
   return (
     <main className="min-h-screen">
       <Header />
@@ -20,11 +18,9 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
-        </div>
+        <Suspense fallback={<div className="text-center py-12 font-mono text-sm text-muted-foreground">Loading...</div>}>
+          <ProjectsGrid />
+        </Suspense>
       </section>
 
       <Footer />

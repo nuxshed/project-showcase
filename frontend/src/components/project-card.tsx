@@ -9,9 +9,10 @@ import Link from "next/link";
 
 interface ProjectCardProps {
   project: Project;
+  onTagClick?: (tag: string) => void;
 }
 
-export function ProjectCard({ project }: ProjectCardProps) {
+export function ProjectCard({ project, onTagClick }: ProjectCardProps) {
   return (
     <Card className="h-full flex flex-col border-2 transition-all hover:border-foreground/25">
       <CardHeader className="border-b-2">
@@ -26,7 +27,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </p>
         <div className="flex flex-wrap gap-2">
           {project.tags.map((tag) => (
-            <Badge key={tag} variant="secondary" className="text-xs font-mono border">
+            <Badge
+              key={tag}
+              variant="secondary"
+              className="text-xs font-mono border cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors"
+              onClick={() => onTagClick?.(tag)}
+            >
               {tag}
             </Badge>
           ))}

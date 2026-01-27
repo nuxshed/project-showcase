@@ -1,16 +1,16 @@
 "use client"
 
-import { Circle, Moon, Sprout, Droplet } from "lucide-react";
+import { Sun, Moon, Sprout, Fish, FishSymbol } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 
 const themes = [
-    { name: "milk", icon: Circle, label: "Milk" },
+    { name: "milk", icon: Sun, label: "Milk" },
     { name: "dark", icon: Moon, label: "Coal" },
     { name: "mint", icon: Sprout, label: "Mint" },
-    { name: "bear", icon: Droplet, label: "Bear" },
+    { name: "salmon", icon: FishSymbol, label: "Salmon" },
 ];
 
 export function ModeToggle() {
@@ -26,14 +26,14 @@ export function ModeToggle() {
         return (
             <div className="border-2">
                 <Button variant="ghost" size="icon" className="relative z-10">
-                    <Circle className="h-4 w-4" />
+                    <Sun className="h-4 w-4" />
                 </Button>
             </div>
         );
     }
 
     const currentThemeIndex = themes.findIndex((t) => t.name === theme);
-    const CurrentIcon = themes[currentThemeIndex]?.icon || Circle;
+    const CurrentIcon = themes[currentThemeIndex]?.icon || Sun;
 
     const otherThemes = themes.filter((t) => t.name !== theme);
 

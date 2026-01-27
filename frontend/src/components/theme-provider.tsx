@@ -10,8 +10,8 @@ export function ThemeProvider({
     return (
         <NextThemesProvider
             {...props}
-            themes={["milk", "dark", "mint", "bear"]}
-            defaultTheme="milk"
+            themes={["milk", "dark", "mint", "salmon"]}
+            defaultTheme="dark"
         >
             {children}
         </NextThemesProvider>

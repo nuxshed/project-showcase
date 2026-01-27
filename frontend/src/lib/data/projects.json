@@ -1,0 +1,166 @@
+[
+    {
+        "id": "campus-connect",
+        "title": "Campus Connect",
+        "description": "A centralized hub for student projects and collaboration. Built with modern web technologies.",
+        "tags": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind",
+            "PostgreSQL"
+        ],
+        "authors": [
+            {
+                "name": "nuxsh",
+                "site": "https://github.com/nuxsh"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/nuxsh/campus-connect",
+            "demo": "https://campus-connect.demo"
+        }
+    },
+    {
+        "id": "rust-os",
+        "title": "Rusty OS",
+        "description": "A toy operating system written in Rust for the OS course. Implements basic kernel features.",
+        "tags": [
+            "Rust",
+            "Systems",
+            "Low-level",
+            "Kernel"
+        ],
+        "authors": [
+            {
+                "name": "Alice",
+                "site": "https://github.com/alice"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/alice/rusty-os"
+        }
+    },
+    {
+        "id": "ml-toolkit",
+        "title": "ML Toolkit",
+        "description": "Collection of machine learning utilities and pre-trained models for common tasks.",
+        "tags": [
+            "Python",
+            "PyTorch",
+            "ML",
+            "AI"
+        ],
+        "authors": [
+            {
+                "name": "Bob",
+                "site": "https://github.com/bob"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/bob/ml-toolkit"
+        }
+    },
+    {
+        "id": "devtools-cli",
+        "title": "DevTools CLI",
+        "description": "Command-line interface for common development tasks. Automates repetitive workflows.",
+        "tags": [
+            "Go",
+            "CLI",
+            "DevOps",
+            "Automation"
+        ],
+        "authors": [
+            {
+                "name": "Charlie",
+                "site": "https://github.com/charlie"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/charlie/devtools-cli",
+            "demo": "https://devtools.demo"
+        }
+    },
+    {
+        "id": "data-viz",
+        "title": "Data Visualization Library",
+        "description": "Lightweight charting library with focus on performance and customization.",
+        "tags": [
+            "JavaScript",
+            "D3.js",
+            "Visualization",
+            "Charts"
+        ],
+        "authors": [
+            {
+                "name": "Diana",
+                "site": "https://github.com/diana"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/diana/data-viz",
+            "demo": "https://data-viz.demo"
+        }
+    },
+    {
+        "id": "mobile-app",
+        "title": "Campus Events App",
+        "description": "Mobile application for discovering and managing campus events and activities.",
+        "tags": [
+            "React Native",
+            "Mobile",
+            "Firebase",
+            "Events"
+        ],
+        "authors": [
+            {
+                "name": "Eve",
+                "site": "https://github.com/eve"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/eve/campus-events"
+        }
+    },
+    {
+        "id": "api-gateway",
+        "title": "API Gateway",
+        "description": "High-performance API gateway with rate limiting, authentication, and monitoring.",
+        "tags": [
+            "Node.js",
+            "Express",
+            "API",
+            "Backend"
+        ],
+        "authors": [
+            {
+                "name": "Frank",
+                "site": "https://github.com/frank"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/frank/api-gateway"
+        }
+    },
+    {
+        "id": "design-system",
+        "title": "Design System",
+        "description": "Comprehensive design system with reusable components and design tokens.",
+        "tags": [
+            "React",
+            "Storybook",
+            "Design",
+            "Components"
+        ],
+        "authors": [
+            {
+                "name": "Grace",
+                "site": "https://github.com/grace"
+            }
+        ],
+        "links": {
+            "repo": "https://github.com/grace/design-system",
+            "demo": "https://design-system.demo"
+        }
+    }
+]

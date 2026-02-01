@@ -26,7 +26,7 @@ export default function Home() {
         <FilterBar allTags={allTags} />
       </Suspense>
 
-      <section className="container mx-auto px-4 py-6">
+      <section className="container mx-auto px-4 py-6 min-h-screen">
         <Suspense fallback={<div className="text-center py-12 font-mono text-sm text-muted-foreground">Loading...</div>}>
           <ProjectsGrid />
         </Suspense>

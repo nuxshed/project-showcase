@@ -34,9 +34,18 @@ export function FilterBar({ allTags }: FilterBarProps) {
             }
         };
 
+
         document.addEventListener("keydown", handleKeyDown);
         return () => document.removeEventListener("keydown", handleKeyDown);
     }, []);
+
+    const handleScroll = () => {
+        if (window.scrollY < 50) {
+            const filterBar = document.getElementById("filter-bar");
+            filterBar?.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    };
+
 
     if (!mounted) {
         return (
@@ -52,7 +61,7 @@ export function FilterBar({ allTags }: FilterBarProps) {
     }
 
     return (
-        <div className="bg-background sticky top-0 z-20">
+        <div id="filter-bar" className="bg-background sticky top-0 z-20">
             <div className="container mx-auto px-4 py-4">
                 <div className="flex gap-4 items-center justify-between">
                     <div className="flex items-center gap-2 border-2 px-3 py-2 w-80 h-10">
@@ -62,7 +71,15 @@ export function FilterBar({ allTags }: FilterBarProps) {
                             type="text"
                             placeholder="search projects"
                             value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
+                            onChange={(e) => {
+                                setSearchQuery(e.target.value);
+                                handleScroll();
+                            }}
+                            onKeyDown={(e) => {
+                                if (e.key === "Escape") {
+                                    e.currentTarget.blur();
+                                }
+                            }}
                             className="border-0 h-6 p-0 focus-visible:ring-0 font-mono text-sm !bg-background"
                         />
                         {searchQuery && (

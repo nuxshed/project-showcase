@@ -46,7 +46,7 @@ export function Hero() {
             </div>
             */}
 
-            <div className="relative container mx-auto px-4 py-24 md:py-32">
+            <div className="relative container mx-auto px-4 py-12 md:py-20">
                 <div className="max-w-4xl">
                     <h1 className="text-5xl md:text-7xl font-bold uppercase tracking-tight mb-6">
                         Built by Us.
@@ -54,16 +54,7 @@ export function Hero() {
                     <p className="text-lg md:text-xl text-muted-foreground font-mono leading-relaxed max-w-2xl">
                         Open source projects, experiments, and tools crafted by and for the IIIT Hyderabad community.
                     </p>
-                    <div className="mt-8 flex gap-4 font-mono text-sm">
-                        <div className="border-2 px-4 py-2">
-                            <span className="text-muted-foreground">Projects:</span>{" "}
-                            <span className="font-bold">67</span>
-                        </div>
-                        <div className="border-2 px-4 py-2">
-                            <span className="text-muted-foreground">Contributors:</span>{" "}
-                            <span className="font-bold">248</span>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
